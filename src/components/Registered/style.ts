@@ -1,9 +1,10 @@
 import styled from 'styled-components/native';
 
 export const Quiz = styled.View`
-  margin-top: 26px;
+  padding: 16px;
+  margin-top: 16px;
   height: 350px;
-  width: 350px;
+  width: 360px;
   border-width: 3px;
   border-radius: 10px;
   border-color: #650075;
@@ -22,6 +23,7 @@ export const Text = styled.Text`
   font-family: 'gilroy-regular';
   font-size: 16px;
   color: #10111e;
+  margin-bottom: 8px;
 `;
 
 export const Questions = styled.Text`
